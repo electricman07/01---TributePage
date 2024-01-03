@@ -2,6 +2,7 @@
 
 html {
   font-family: "Open Sans", sans-serif;
+  background-color: #f2f3f4;
 }
 
 body {
@@ -22,8 +23,20 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  text-align: center;
+}
+
 .image {
   float: right;
   border-radius: 50px;
   padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .image {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
 }
